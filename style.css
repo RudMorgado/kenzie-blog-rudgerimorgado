@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 body {
+    font-family: 'Roboto', sans-serif;
    background: white;
    display: block;
    text-align: center;
@@ -7,6 +10,7 @@ body {
 
 .card{
     background: rgba(128, 128, 128, 0.253);
+    
 }
 
 .Titulo{
@@ -25,4 +29,16 @@ fieldset{
 a{
     display: block;
     text-align: center;
+}
+
+button{ 
+    background: black;
+    color: white;
+}
+
+div{
+    border-width: 60%;
+}
+header{
+    background: rgba(0, 0, 0, 0.315);
 }
